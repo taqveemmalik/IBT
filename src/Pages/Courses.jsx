@@ -175,7 +175,7 @@ function Courses() {
 
                     <Row>
                         {coursesData.map((course, index) => (
-                            <Col xl="6" lg="6" md="12" key={course.id} className='mb-4'>
+                            <Col xl="6\" lg="6\" md="12\" key={course.id} className='mb-4'>
                                 <div className={`course-detail-card scroll-anime ${index % 2 === 0 ? 'left' : 'right'}`}>
                                     <div className="course-header">
                                         <div className="course-icon">
