@@ -18,25 +18,25 @@ const coursesData = [
     {
         id: 1,
         title: "AI Courses",
-        subtitle: "Artificial Intelligence & Machine Learning",
-        description: "Learn the fundamentals of artificial intelligence, machine learning, and automation through real-world projects. Master neural networks, deep learning, and generative AI.",
-        duration: "10 Weeks",
+        subtitle: "3-Month Artificial Intelligence Program",
+        description: "Learn AI from scratch! Build smart systems, analyze data, and create projects like chatbots or image recognizers. Perfect for students, job seekers, and professionals looking to enter the AI field.",
+        duration: "3 Months (12 Weeks)",
         level: "Beginner to Advanced",
-        format: "Weekday / Weekend Options",
+        format: "Onsite Classes with Computers Provided",
         icon: iconai,
         image: ai,
         alt: "AI Courses",
         link: "/AiCourses",
         highlights: [
-            "Core AI and Machine Learning fundamentals",
-            "Neural networks and deep learning",
-            "Generative AI and prompt engineering",
-            "Natural Language Processing (NLP)",
-            "Computer Vision applications",
-            "Ethical AI and responsible development"
+            "AI & Python foundations from scratch",
+            "Machine Learning algorithms & neural networks",
+            "Natural Language Processing & chatbots",
+            "Computer Vision & image recognition",
+            "Real-world projects for Pakistani businesses",
+            "Portfolio of 3-5 AI projects"
         ],
-        tools: ["Python", "TensorFlow", "Keras", "Scikit-learn", "OpenCV", "NLTK"],
-        certification: "IBT AI Bootcamp Completion Certificate",
+        tools: ["Python", "TensorFlow", "Keras", "Scikit-learn", "OpenCV", "NLTK", "Pandas", "NumPy"],
+        certification: "IBT AI Certificate - Industry Recognized",
         placement: "95% placement rate in AI/ML roles"
     },
     {
@@ -175,7 +175,7 @@ function Courses() {
 
                     <Row>
                         {coursesData.map((course, index) => (
-                            <Col xl="6\" lg="6\" md="12\" key={course.id} className='mb-4'>
+                            <Col xl="6" lg="6" md="12" key={course.id} className='mb-4'>
                                 <div className={`course-detail-card scroll-anime ${index % 2 === 0 ? 'left' : 'right'}`}>
                                     <div className="course-header">
                                         <div className="course-icon">
