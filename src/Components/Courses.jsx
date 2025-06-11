@@ -14,8 +14,8 @@ import { Link } from "react-router-dom";
 
 const courseData = [
     {
-        title: "AI ",
-        subtitle: "courses",
+        title: "Artificial Intelligence ",
+        subtitle: "Course",
         desc: "Master AI from scratch! Build smart systems, analyze data, and create projects like chatbots or image recognizers. Perfect for students, job seekers, and professionals.",
         icon: iconai,
         image: ai,
@@ -24,7 +24,7 @@ const courseData = [
     },
     {
         title: "Python ",
-        subtitle: "courses",
+        subtitle: "Course",
         desc: "Master Python from zero to hero! Build real-world applications, automate tasks, and create projects like billing systems or web apps. No coding experience required.",
         icon: iconpython,
         image: python,

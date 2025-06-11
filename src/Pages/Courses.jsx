@@ -17,7 +17,7 @@ import { Image } from 'react-bootstrap';
 const coursesData = [
     {
         id: 1,
-        title: "AI Courses",
+        title: "Artificial Intelligence Course",
         subtitle: "3-Month Artificial Intelligence Program",
         description: "Master AI from scratch! Build smart systems, analyze data, and create projects like chatbots or image recognizers. Perfect for students, job seekers, and professionals looking to enter the AI field with real-world Pakistani business applications.",
         duration: "3 Months (12 Weeks)",
@@ -39,7 +39,7 @@ const coursesData = [
     },
     {
         id: 2,
-        title: "Python Courses",
+        title: "Python Course",
         subtitle: "3-Month Programming & Development",
         description: "Master Python from zero to hero! Build real-world applications, automate tasks, and create projects like billing systems or web apps. Perfect for beginners with no coding experience to become job-ready developers.",
         duration: "3 Months (12 Weeks)",
@@ -61,7 +61,7 @@ const coursesData = [
     },
     {
         id: 3,
-        title: "Blockchain Courses",
+        title: "Blockchain Course",
         subtitle: "Pre-Requisite Course",
         description: "Perfect for beginners—grasp the concepts that drive decentralized technologies. Understand blockchain architecture, smart contracts, and cryptocurrency fundamentals.",
         duration: "8 Weeks",
