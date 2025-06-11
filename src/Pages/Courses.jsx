@@ -19,7 +19,7 @@ const coursesData = [
         id: 1,
         title: "AI Courses",
         subtitle: "3-Month Artificial Intelligence Program",
-        description: "Learn AI from scratch! Build smart systems, analyze data, and create projects like chatbots or image recognizers. Perfect for students, job seekers, and professionals looking to enter the AI field.",
+        description: "Master AI from scratch! Build smart systems, analyze data, and create projects like chatbots or image recognizers. Perfect for students, job seekers, and professionals looking to enter the AI field with real-world Pakistani business applications.",
         duration: "3 Months (12 Weeks)",
         level: "Beginner to Advanced",
         format: "Onsite Classes with Computers Provided",
@@ -31,22 +31,20 @@ const coursesData = [
             "AI & Python foundations from scratch",
             "Machine Learning algorithms & neural networks",
             "Natural Language Processing & chatbots",
-            "Computer Vision & image recognition",
-            "Real-world projects for Pakistani businesses",
-            "Portfolio of 3-5 AI projects"
+            "Computer Vision & image recognition"
         ],
-        tools: ["Python", "TensorFlow", "Keras", "Scikit-learn", "OpenCV", "NLTK", "Pandas", "NumPy"],
+        tools: ["Python", "TensorFlow", "Keras", "Scikit-learn"],
         certification: "IBT AI Certificate - Industry Recognized",
         placement: "95% placement rate in AI/ML roles"
     },
     {
         id: 2,
         title: "Python Courses",
-        subtitle: "Programming & Development",
-        description: "Master one of the most powerful programming languages used across data science, software development, and AI. Build real-world applications and automation tools.",
-        duration: "10 Weeks",
+        subtitle: "3-Month Programming & Development",
+        description: "Master Python from zero to hero! Build real-world applications, automate tasks, and create projects like billing systems or web apps. Perfect for beginners with no coding experience to become job-ready developers.",
+        duration: "3 Months (12 Weeks)",
         level: "Beginner Friendly",
-        format: "Weekday / Weekend Options",
+        format: "Onsite Classes with Computers Provided",
         icon: iconpython,
         image: python,
         alt: "Python Courses",
@@ -54,12 +52,10 @@ const coursesData = [
         highlights: [
             "Python syntax and data structures",
             "Object-oriented programming",
-            "Web development with Flask/Django",
-            "Data analysis with Pandas & NumPy",
-            "API development and integration",
-            "Automation and scripting"
+            "Web development with Flask",
+            "Database management & automation"
         ],
-        tools: ["Python 3.x", "Flask", "Django", "Pandas", "NumPy", "Matplotlib", "SQLite"],
+        tools: ["Python 3.x", "Flask", "MongoDB", "Pandas"],
         certification: "IBT Python Programming Certificate",
         placement: "90% placement rate in development roles"
     },
@@ -79,11 +75,9 @@ const coursesData = [
             "Blockchain architecture and consensus",
             "Cryptocurrency fundamentals",
             "Smart contract basics",
-            "DeFi and NFT concepts",
-            "Security and privacy essentials",
-            "Real-world blockchain applications"
+            "DeFi and NFT concepts"
         ],
-        tools: ["Bitcoin", "Ethereum", "MetaMask", "Remix IDE", "Solidity", "Web3.js"],
+        tools: ["Bitcoin", "Ethereum", "MetaMask", "Remix IDE"],
         certification: "Certificate of Completion: Blockchain Foundations",
         placement: "85% transition to advanced blockchain roles"
     },
@@ -103,11 +97,9 @@ const coursesData = [
             "Mining protocols and algorithms",
             "Node setup and configuration",
             "Consensus mechanisms (PoW, PoS)",
-            "Network security and validation",
-            "Real-time blockchain analytics",
-            "Energy efficiency and sustainability"
+            "Network security and validation"
         ],
-        tools: ["Bitcoin Core", "Ethereum Node", "Geth", "Grafana", "Prometheus", "CLI Tools"],
+        tools: ["Bitcoin Core", "Ethereum Node", "Geth", "Grafana"],
         certification: "IBT Blockchain Mining Certificate",
         placement: "80% placement in blockchain infrastructure roles"
     }
@@ -175,7 +167,7 @@ function Courses() {
 
                     <Row>
                         {coursesData.map((course, index) => (
-                            <Col xl="6\" lg="6\" md="12\" key={course.id} className='mb-4'>
+                            <Col xl="6" lg="6" md="12" key={course.id} className='mb-4'>
                                 <div className={`course-detail-card scroll-anime ${index % 2 === 0 ? 'left' : 'right'}`}>
                                     <div className="course-header">
                                         <div className="course-icon">
